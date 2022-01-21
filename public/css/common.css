@@ -1,0 +1,50 @@
+.btnNavi a:link,
+.btnNavi a:visited,
+input[type=submit] {
+    color: #393E46;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: #393E46 solid 1px;
+    background-color: white;
+}
+
+.btnNavi a:hover,
+.btnNavi a:active,
+input[type=submit]:hover {
+    background-color: #393E46;
+    color: white;
+}
+
+input[type=text] {
+    color: #393E46;
+    padding: 5px 8px;
+    border: #393E46 solid 1px;
+    margin: 10px;
+}
+
+body {
+    margin: 50px;
+}
+
+div.imageDiv {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.imageDiv:hover {
+    border: 1px solid #777;
+}
+
+div.imageDiv img {
+    width: 100%;
+    height: auto;
+}
+
+div.imageTitle {
+    padding: 5px;
+    text-align: center;
+}
